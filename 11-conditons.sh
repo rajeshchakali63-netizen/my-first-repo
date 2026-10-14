@@ -8,10 +8,11 @@ if [ $user_id -ne 0 ]; then
 fi
 
 echo "Proceeding...."
+
 dnf install nginx -y
 
 
-if [ [ $? < 0 ] ]; then
+if [ [ $? -ne 0 ] ]; then
     echo "Nginx installation is failed"
     exit 1
 else
