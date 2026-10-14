@@ -12,3 +12,11 @@ COUNT=COUNT+1
 
 echo "Countis": $COUNT"
 
+FRUITS=("Apple" "Banana" "Pappaya")
+echo "All fruits: ${$FRUITS[@]}"
+echo "All fruits: ${$FRUITS[1]}"
+
+
+name="RajeshChakali"
+
+echo "${name}raju
