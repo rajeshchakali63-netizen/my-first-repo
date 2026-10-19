@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -e
 
 echo "starting"
 echo "step-1"
